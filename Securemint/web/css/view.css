@@ -1,0 +1,85 @@
+
+        /* Card Container */
+        /* Header Styling */
+        .header-title {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #740058;
+
+            text-transform: uppercase;
+            background-color: #dd9fd1;
+            padding: 10px;
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .card1 {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 30px;
+            background-color: #fff;
+            width: 100%;
+            padding: 20px;
+
+        }
+
+        .card1:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Service Image Styling */
+        .card1-image img {
+            width: 300px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }     
+
+
+
+
+        /* Image Section */
+        .card1-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Content Section */
+        .card1-content {
+            flex: 2;
+            padding-left: 20px;
+        }
+
+        .card1-content p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #333;
+            font-size: 18px;
+            line-height: 2rem;
+        }
+
+        .card1-content strong {
+            color: #000;
+        }
+
+       
+
+        /* Optional: Space between buttons */
+        .card-actions span {
+            font-size: 18px;
+            margin: 0 10px;
+            color: #6c757d;
+        }
+
+
+
+
+
