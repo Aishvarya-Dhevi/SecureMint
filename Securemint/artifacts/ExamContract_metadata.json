@@ -1,0 +1,268 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "examId",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "examName",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "endTime",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "duration",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "totalMarks",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "totalQuestions",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "createdBy",
+						"type": "address"
+					}
+				],
+				"name": "ExamCreated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_examName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_endTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_duration",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_totalQuestions",
+						"type": "uint256"
+					}
+				],
+				"name": "createExam",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "examCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "exams",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "examName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "startTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "endTime",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "duration",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalMarks",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "totalQuestions",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "createdBy",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_examId",
+						"type": "uint256"
+					}
+				],
+				"name": "getExam",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExamContract.sol": "ExamContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExamContract.sol": {
+			"keccak256": "0x7786f761f250e6fa20aadcdbb8d34e007c6495af2329af4b4f4a7e0ce7663e18",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://148db380d8e06ac1211531d5d1f8cce4d4e172fc377eaa9f17f1a2090a07a2fb",
+				"dweb:/ipfs/QmVhEx8VCHTvHZ5kXTyBzAVTgBfEtT8o6pmK7FMS72oYM8"
+			]
+		}
+	},
+	"version": 1
+}
